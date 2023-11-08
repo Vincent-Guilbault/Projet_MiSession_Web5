@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gabarito', sans-serif;
+}
+
+.layout{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: url('../../public/img/milad-fakurian-u8Jn2rzYIps-unsplash.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.layout .title{
+    margin-left: 2em;
+    font-size: 2em;
+}
+
+.layout .title a{
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 40px;
+}
+
+nav ul li {
+    list-style: none;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2em;
+    padding: 0 20px;
+}
+
+nav ul li a:hover {
+    color: #fd0190;
+}

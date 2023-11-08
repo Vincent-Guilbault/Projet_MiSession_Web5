@@ -1,0 +1,34 @@
+.star-rating {
+    display: flex;
+    position: relative;
+    font-size: 24px;
+    height: 24px; 
+    line-height: 24px; 
+    white-space: nowrap; 
+    overflow: hidden; 
+    width: calc(24px * 5 + 4px * 4);
+}
+
+.full-stars,
+.empty-stars {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    display: flex;
+}
+
+.full-stars {
+    z-index: 1;
+    color: gold;
+    overflow: hidden;
+    max-width: calc(24px * 5 + 4px * 4);
+}
+
+.empty-stars {
+    color: grey;
+}
+
+.star {
+    margin-right: 4px;
+}
